@@ -20,6 +20,10 @@ Chasing fresh powder whenever winter comes around.
 
 Exploring trails and enjoying the views.
 
+![Forest valley under a storm](/hobbies/hiking-4.jpg "1.529") ![Saguaro at Lake Pleasant](/hobbies/hiking-1.jpg "0.565") ![North Cascades National Park](/hobbies/hiking-2.jpg "0.569") ![Summit of Camelback Mountain](/hobbies/hiking-7.jpg "0.563")
+
+![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563")
+
 ### ✈️ Traveling
 
 Discovering new places, food, and cultures.
