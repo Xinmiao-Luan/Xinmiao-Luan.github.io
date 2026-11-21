@@ -2,7 +2,7 @@ I am a Ph.D. candidate in Data Science, Analytics & Engineering at the School of
 
 My research focuses on making AI systems **evaluable and trustworthy**:
 
-- **LLM evaluation & rubric-based rewards**: diagnosing failure modes of rubric rewards in RL post-training (e.g., discriminative collapse) and designing teacher-in-the-loop, co-evolving rubrics for long-form generation.
+- **LLM evaluation & rubric-based rewards**: diagnosing failure modes of rubric rewards in RL post-training (e.g., discriminative collapse) and designing teacher-in-the-loop, co-evolving rubrics for open-ended, non-verifiable tasks such as deep research.
 - **AI-generated video detection**: building large-scale benchmarks and forensic detectors / reasoning VLMs that hold up on real-world shared videos. [paper](https://arxiv.org/abs/2611.14941 "Reality Perception Gap: Are AI-Manipulated Video Detectors Ready for the Real World?")
 - **Industrial AI**: multimodal anomaly detection and defect classification for advanced manufacturing. [paper](https://onlinelibrary.wiley.com/doi/10.1002/qre.3761 "Efficient Online Cross-Covariance Monitoring with Incremental SVD (QREI 2025)") [code](https://github.com/Xinmiao-Luan/AE-signal-and-process-data-pipeline "Code: AE signal and process data pipeline") [code](https://github.com/Xinmiao-Luan/two-stage-defect-classification-basedonViT "Code: two-stage defect classification based on ViT")
 
