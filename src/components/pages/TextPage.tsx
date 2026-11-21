@@ -34,7 +34,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                             // A paragraph made only of images becomes a row of photos with equal heights.
                             const kids = (node?.children ?? []).filter((c) => !(c.type === 'text' && !c.value.trim()));
                             if (kids.length > 0 && kids.every((c) => c.type === 'element' && c.tagName === 'img')) {
-                                return <div className="flex flex-col sm:flex-row gap-4 my-6">{children}</div>;
+                                return <PhotoRow images={kids as unknown as ImgNode[]} />;
                             }
                             return <p className="mb-4 last:mb-0">{children}</p>;
                         },
@@ -69,5 +69,48 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                 </ReactMarkdown>
             </div>
         </motion.div>
+    );
+}
+
+type ImgNode = { properties: { src?: string; alt?: string; title?: string } };
+
+const photoClass = 'w-full rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200';
+
+// Lays out a row of photos at one shared height. Each image title is its width/height ratio.
+// Consecutive images titled "stack <ratio>" are stacked into one column, filling the row height.
+function PhotoRow({ images }: { images: ImgNode[] }) {
+    const groups: { stacked: boolean; items: { src?: string; alt?: string; ratio: number }[] }[] = [];
+    for (const img of images) {
+        const title = String(img.properties.title ?? '');
+        const stacked = title.startsWith('stack');
+        const ratio = Number(title.replace('stack', '').trim()) || 1;
+        const item = { src: img.properties.src, alt: img.properties.alt, ratio };
+        const last = groups[groups.length - 1];
+        if (stacked && last?.stacked) last.items.push(item);
+        else groups.push({ stacked, items: [item] });
+    }
+    return (
+        <div className="flex flex-col sm:flex-row gap-4 my-6">
+            {groups.map((group, i) =>
+                group.stacked ? (
+                    <span key={i} className="relative block min-w-0" style={{ flex: 1 / group.items.reduce((sum, it) => sum + 1 / it.ratio, 0) }}>
+                        {/* On wide screens the stack fills the height set by its neighbours instead of adding to it. */}
+                        <span className="flex flex-col gap-4 sm:absolute sm:inset-0">
+                        {group.items.map((it) => (
+                            <span key={it.src} className="block flex-1 min-h-0" style={{ flexGrow: 1 / it.ratio }}>
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img src={it.src} alt={it.alt || ''} loading="lazy" className={`${photoClass} h-full object-cover`} />
+                            </span>
+                        ))}
+                        </span>
+                    </span>
+                ) : (
+                    <span key={i} className="block min-w-0" style={{ flex: group.items[0].ratio }}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={group.items[0].src} alt={group.items[0].alt || ''} loading="lazy" className={`${photoClass} h-auto`} />
+                    </span>
+                )
+            )}
+        </div>
     );
 }
