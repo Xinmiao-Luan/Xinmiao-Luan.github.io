@@ -11,7 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { MapPinIcon as MapPinSolidIcon, EnvelopeIcon as EnvelopeSolidIcon } from '@heroicons/react/24/solid';
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
-import { Github, Linkedin, Pin } from 'lucide-react';
+import { Eye, Github, Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
 
@@ -50,6 +50,21 @@ export default function Profile({ author, social, features, researchInterests }:
     const LIKE_COUNTER_URL = 'https://abacus.jasoncameron.dev';
     const LIKE_COUNTER_KEY = 'xinmiao-luan-homepage/likes';
     const [likeCount, setLikeCount] = useState<number | null>(null);
+    const [viewCount, setViewCount] = useState<number | null>(null);
+
+    // Page view counter (same Abacus service). Counts once per browser session, so refreshes don't inflate it.
+    useEffect(() => {
+        if (!features.enable_likes) return;
+        let counted = false;
+        try { counted = sessionStorage.getItem('website-view-counted') === 'true'; } catch { /* storage unavailable */ }
+        fetch(`${LIKE_COUNTER_URL}/${counted ? 'get' : 'hit'}/xinmiao-luan-homepage/views`)
+            .then((res) => (res.ok ? res.json() : { value: 0 }))
+            .then((data) => {
+                if (typeof data.value === 'number') setViewCount(data.value);
+                if (!counted) { try { sessionStorage.setItem('website-view-counted', 'true'); } catch { /* storage unavailable */ } }
+            })
+            .catch(() => setViewCount(null));
+    }, [features.enable_likes]);
 
     useEffect(() => {
         if (!features.enable_likes) return;
@@ -330,7 +345,7 @@ export default function Profile({ author, social, features, researchInterests }:
 
             {/* Like Button */}
             {features.enable_likes && (
-                <div className="flex justify-center">
+                <div className="flex justify-center items-center gap-2">
                     <div className="relative">
                         <motion.button
                             onClick={handleLike}
@@ -365,6 +380,15 @@ export default function Profile({ author, social, features, researchInterests }:
                             )}
                         </AnimatePresence>
                     </div>
+                    {viewCount !== null && (
+                        <div
+                            className="flex items-center space-x-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-500"
+                            title="Page views"
+                        >
+                            <Eye className="h-4 w-4" />
+                            <span>{viewCount.toLocaleString()}</span>
+                        </div>
+                    )}
                 </div>
             )}
         </motion.div>
