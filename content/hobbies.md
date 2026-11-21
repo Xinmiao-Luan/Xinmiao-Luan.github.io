@@ -10,6 +10,8 @@ Putting ideas on canvas, away from screens and loss curves, from watercolor land
 
 Keeping my core strong for long days of research.
 
+[placeholder] No photos here yet, but Pilates has been my biggest hobby throughout my PhD. 🧘‍♀️
+
 ### ⛷️ Skiing
 
 Chasing fresh powder whenever winter comes around.
@@ -26,7 +28,7 @@ Exploring trails and enjoying the views.
 
 ### ✈️ Traveling
 
-Discovering new places, food, and cultures, especially **with my friends and family**.
+Discovering new places, food, and cultures, especially with my friends and family.
 
 ![By the lake in Beihai Park, Beijing](/hobbies/travel-1.jpg "0.684") ![Meeting Mickey at Disneyland](/hobbies/travel-2.jpg "1.5") ![In front of the red rocks of Sedona](/hobbies/travel-11.jpg "1.333")
 

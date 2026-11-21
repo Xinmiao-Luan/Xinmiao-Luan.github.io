@@ -36,6 +36,15 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                             if (kids.length > 0 && kids.every((c) => c.type === 'element' && c.tagName === 'img')) {
                                 return <PhotoRow images={kids as unknown as ImgNode[]} />;
                             }
+                            // A paragraph starting with "[placeholder]" becomes an empty dashed photo frame with a note.
+                            const first = kids[0];
+                            if (kids.length === 1 && first.type === 'text' && first.value.startsWith('[placeholder]')) {
+                                return (
+                                    <div className="my-6 flex min-h-48 items-center justify-center rounded-xl border-2 border-dashed border-neutral-300 dark:border-neutral-700 px-6 py-10 text-center text-neutral-500">
+                                        {first.value.replace('[placeholder]', '').trim()}
+                                    </div>
+                                );
+                            }
                             return <p className="mb-4 last:mb-0">{children}</p>;
                         },
                         // Optional image title = width/height ratio, so photos in a row line up at the same height.
