@@ -26,4 +26,12 @@ Exploring trails and enjoying the views.
 
 ### ✈️ Traveling
 
-Discovering new places, food, and cultures.
+Discovering new places, food, and cultures, especially **with my friends and family**.
+
+![By the lake in Beihai Park, Beijing](/hobbies/travel-1.jpg "0.684") ![Meeting Mickey at Disneyland](/hobbies/travel-2.jpg "1.5") ![In front of the red rocks of Sedona](/hobbies/travel-11.jpg "1.333")
+
+![Overlooking Lake Como](/hobbies/travel-4.jpg "1.496") ![Palms above Lake Como](/hobbies/travel-3.jpg "1.496") ![Como waterfront at sunset](/hobbies/travel-7.jpg "0.75")
+
+![Milan Cathedral](/hobbies/travel-5.jpg "1.496") ![Piazza del Duomo, Milan](/hobbies/travel-6.jpg "1.496")
+
+![Saguaros at sunset](/hobbies/travel-9.jpg "1.333") ![Pink desert sunset](/hobbies/travel-10.jpg "1.333") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496")
