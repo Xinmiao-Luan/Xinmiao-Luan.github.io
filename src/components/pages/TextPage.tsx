@@ -78,13 +78,14 @@ const photoClass = 'w-full rounded-xl shadow-md hover:shadow-lg transition-shado
 
 // Lays out a row of photos at one shared height. Each image title is its width/height ratio.
 // Consecutive images titled "stack <ratio>" are stacked into one column, filling the row height.
+// Add "| <text>" after the ratio to show a location label in the photo's bottom-left corner.
 function PhotoRow({ images }: { images: ImgNode[] }) {
-    const groups: { stacked: boolean; items: { src?: string; alt?: string; ratio: number }[] }[] = [];
+    const groups: { stacked: boolean; items: { src?: string; alt?: string; ratio: number; caption?: string }[] }[] = [];
     for (const img of images) {
-        const title = String(img.properties.title ?? '');
+        const [title, caption] = String(img.properties.title ?? '').split('|').map((part) => part.trim());
         const stacked = title.startsWith('stack');
         const ratio = Number(title.replace('stack', '').trim()) || 1;
-        const item = { src: img.properties.src, alt: img.properties.alt, ratio };
+        const item = { src: img.properties.src, alt: img.properties.alt, ratio, caption: caption || undefined };
         const last = groups[groups.length - 1];
         if (stacked && last?.stacked) last.items.push(item);
         else groups.push({ stacked, items: [item] });
@@ -97,20 +98,31 @@ function PhotoRow({ images }: { images: ImgNode[] }) {
                         {/* On wide screens the stack fills the height set by its neighbours instead of adding to it. */}
                         <span className="flex flex-col gap-4 sm:absolute sm:inset-0">
                         {group.items.map((it) => (
-                            <span key={it.src} className="block flex-1 min-h-0" style={{ flexGrow: 1 / it.ratio }}>
+                            <span key={it.src} className="relative block flex-1 min-h-0" style={{ flexGrow: 1 / it.ratio }}>
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src={it.src} alt={it.alt || ''} loading="lazy" className={`${photoClass} h-full object-cover`} />
+                                {it.caption && <PhotoCaption text={it.caption} />}
                             </span>
                         ))}
                         </span>
                     </span>
                 ) : (
-                    <span key={i} className="block min-w-0" style={{ flex: group.items[0].ratio }}>
+                    <span key={i} className="relative block min-w-0" style={{ flex: group.items[0].ratio }}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img src={group.items[0].src} alt={group.items[0].alt || ''} loading="lazy" className={`${photoClass} h-auto`} />
+                        {group.items[0].caption && <PhotoCaption text={group.items[0].caption} />}
                     </span>
                 )
             )}
         </div>
+    );
+}
+
+function PhotoCaption({ text }: { text: string }) {
+    return (
+        <span className="absolute left-3 bottom-3 inline-flex items-center gap-1 rounded-md bg-black/55 backdrop-blur-sm px-2 py-1 text-xs font-medium text-white pointer-events-none">
+            <svg viewBox="0 0 24 24" className="h-3 w-3 fill-current" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" /></svg>
+            {text}
+        </span>
     );
 }
