@@ -4,7 +4,7 @@ When I'm not working on LLMs, you'll most likely find me doing one of these:
 
 Putting ideas on canvas, away from screens and loss curves, from watercolor landscapes to large acrylic pieces.
 
-![Watercolor sunrise painting](/hobbies/painting-sunrise.jpg "0.812") ![Watercolor peaches](/hobbies/painting-peaches.jpg "stack 1.384") ![Watercolor bakery still life](/hobbies/painting-bakery.jpg "stack 1.343") ![Polaroids of a large painting in progress](/hobbies/painting-polaroids.jpg "0.711")
+![Watercolor sunrise painting](/hobbies/painting-sunrise.jpg "0.812") ![Watercolor peaches](/hobbies/painting-peaches.jpg "stack 1.384") ![Watercolor bakery still life](/hobbies/painting-bakery.jpg "stack 1.342") ![Polaroids of a large painting in progress](/hobbies/painting-polaroids.jpg "0.711")
 
 ### 🧘‍♀️ Pilates
 
