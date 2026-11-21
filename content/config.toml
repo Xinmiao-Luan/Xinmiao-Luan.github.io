@@ -1,0 +1,72 @@
+[site]
+title = "Xinmiao Luan"
+description = "PhD candidate at Arizona State University working on LLM evaluation, rubric-based rewards, and AI-generated video detection."
+favicon = "/favicon.svg"
+last_updated = "November 20, 2026"
+
+[author]
+name = "Xinmiao Luan"
+title = "PhD Candidate"
+institution = "Arizona State University"
+avatar = "/bio.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+# Multiple addresses: separate with commas. The first one is used by the "Send Email" button.
+email = "xinmiaoluan@gmail.com, xluan3@asu.edu"
+location = "Tempe, AZ"
+location_url = "https://maps.google.com/?q=Arizona+State+University+Tempe"
+google_scholar = "https://scholar.google.com/citations?hl=en&user=A8wLai8AAAAJ"
+github = "https://github.com/Xinmiao-Luan"
+linkedin = "https://www.linkedin.com/in/xinmiao-luan/"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = true
+switcher = false
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

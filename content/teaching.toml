@@ -1,0 +1,24 @@
+type = "card"
+title = "Teaching"
+description = "Courses I have assisted with at Arizona State University."
+
+[[items]]
+title = "IEE 572: Design of Engineering Experiments"
+subtitle = "Teaching Assistant · Arizona State University"
+date = "Fall 2024 · Spring 2025 · Fall 2025 · Spring 2026"
+content = "Graduate course. One-on-one sessions on experimental design and statistical modeling in Python and JMP."
+tags = ["Graduate", "Statistics"]
+
+[[items]]
+title = "IEE 579: Time Series Analysis and Forecasting"
+subtitle = "Teaching Assistant · Arizona State University"
+date = "Fall 2024 · Fall 2025"
+content = "Graduate course on time series modeling and forecasting."
+tags = ["Graduate", "Statistics"]
+
+[[items]]
+title = "IEE 578: Regression Analysis"
+subtitle = "Teaching Assistant · Arizona State University"
+date = "Spring 2026"
+content = "Graduate course on linear and generalized regression modeling."
+tags = ["Graduate", "Statistics"]

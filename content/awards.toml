@@ -1,0 +1,18 @@
+type = "card"
+title = "Awards"
+description = "Fellowships and honors."
+
+[[items]]
+title = "Graduate College Completion Fellowship"
+subtitle = "Arizona State University"
+date = "2026"
+
+[[items]]
+title = "Douglas C. Montgomery Fellowship"
+subtitle = "Arizona State University"
+date = "2024–25"
+
+[[items]]
+title = "SCAI Doctoral Fellowship"
+subtitle = "School of Computing and Augmented Intelligence, ASU"
+date = "2024"
