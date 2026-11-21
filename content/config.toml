@@ -70,3 +70,9 @@ title = "CV"
 type = "page"
 target = "cv"
 href = "/cv"
+
+[[navigation]]
+title = "Hobbies"
+type = "page"
+target = "hobbies"
+href = "/hobbies"
