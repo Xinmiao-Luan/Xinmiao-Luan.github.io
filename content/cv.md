@@ -3,7 +3,7 @@
 ## Education
 
 **Arizona State University**, Ph.D. in Data Science, Analytics & Engineering, *Expected Feb 2027*
-- GPA 4.00/4.00 · Advisor: Dr. Douglas C. Montgomery
+- GPA 4.00/4.00 · Advisor: Dr. Douglas C. Montgomery · Co-advisor: Dr. Andi Wang
 - Thesis: *Unsupervised knowledge discovery for process & quality enhancement in Directed Energy Deposition*
 
 **Tongji University**, M.Sc., Shanghai, *2022*
