@@ -4,6 +4,7 @@ description = "Courses I have assisted with at Arizona State University."
 
 [[items]]
 title = "IEE 572: Design of Engineering Experiments"
+link = "https://www.coursera.org/specializations/design-experiments"
 subtitle = "Teaching Assistant · Arizona State University"
 date = "Fall 2024 · Spring 2025 · Fall 2025 · Spring 2026"
 content = "Graduate course. One-on-one sessions on experimental design and statistical modeling in Python and JMP."
