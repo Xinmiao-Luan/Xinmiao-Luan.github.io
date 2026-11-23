@@ -126,7 +126,7 @@ function PhotoRow({ images }: { images: ImgNode[] }) {
                         {/* On wide screens the column fills the height set by its neighbours instead of adding to it. */}
                         <span className="flex flex-col gap-3 sm:absolute sm:inset-0">
                             {rows.map((row, r) => (
-                                <span key={r} className="flex gap-3 flex-1 min-h-0" style={{ flexGrow: 1 / rowRatio(row) }}>
+                                <span key={r} className="flex gap-3 flex-1 min-h-0" style={{ flexGrow: 100 / rowRatio(row) }}>
                                     {row.map((it) => (
                                         <span key={it.src} className="relative block min-w-0" style={{ flex: it.ratio }}>
                                             {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -16,15 +16,17 @@ Keeping my core strong for long days of research.
 
 Chasing fresh powder whenever winter comes around.
 
-![Skiing at the base of the mountain](/hobbies/skiing-1.jpg "1.488 | Denver, Colorado") ![On the slopes at Arizona Snowbowl](/hobbies/skiing-2.jpg "0.661 | Flagstaff, Arizona") ![Slopes at Deer Valley Resort](/hobbies/skiing-3.jpg "0.655 | Salt Lake City, Utah")
+![Skiing at the base of the mountain](/hobbies/skiing-1.jpg "1.488 | Denver, Colorado") ![On the slopes at Arizona Snowbowl](/hobbies/skiing-2.jpg "0.661 | Flagstaff, Arizona") ![Slopes at Deer Valley Resort](/hobbies/skiing-3.jpg "0.655 | Park City, Utah")
 
 ### 🥾 Hiking
 
 Exploring trails and enjoying the views.
 
-![Forest valley under a storm](/hobbies/hiking-4.jpg "1.529 | Payson, Arizona") ![Saguaro at Lake Pleasant](/hobbies/hiking-1.jpg "0.565") ![North Cascades National Park](/hobbies/hiking-2.jpg "0.569") ![Summit of Camelback Mountain](/hobbies/hiking-7.jpg "0.563 | Camelback Mountain, Arizona") ![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75 | Camelback Mountain, Arizona")
+![Forest valley under a storm](/hobbies/hiking-4.jpg "1.529 | Payson, Arizona") ![Saguaro at Lake Pleasant](/hobbies/hiking-1.jpg "0.565") ![North Cascades National Park](/hobbies/hiking-2.jpg "0.569") ![Summit of Camelback Mountain](/hobbies/hiking-7.jpg "0.563 | Camelback Mountain, Arizona")
 
-![Alpine valley under fresh snow](/hobbies/hiking-9.jpg "1.502") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75 | Aspen Corner, Flagstaff, Arizona") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563") ![Alpine lake among golden larches](/hobbies/hiking-10.jpg "1.509")
+![Alpine valley under fresh snow](/hobbies/hiking-9.jpg "1.502") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75 | Aspen Corner, Flagstaff, Arizona")
+
+![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75 | Camelback Mountain, Arizona") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563") ![Alpine lake among golden larches](/hobbies/hiking-10.jpg "1.509")
 
 ### ✈️ Traveling
 
@@ -40,14 +42,12 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Como waterfront at sunset](/hobbies/travel-7.jpg "0.75 | Lake Como, Italy") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496 | Aegean Sea, Greece") ![Cafe at dusk in Santorini](/hobbies/travel-17.jpg "1.496") ![Blue glassware at night](/hobbies/travel-18.jpg "1.496")
 
-![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667") ![Lakeside at dusk](/hobbies/travel-35.jpg "grid 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "grid 1.333") ![Golden larches after snowfall](/hobbies/travel-32.jpg "grid 1.523") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "grid 1.496")
+![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667") ![Lakeside at dusk](/hobbies/travel-35.jpg "grid 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "grid 1.333") ![Golden larches after snowfall](/hobbies/travel-32.jpg "grid 1.523") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "grid 1.496") ![Stormy sunset over the ocean](/hobbies/travel-12.jpg "stack 1.496") ![Harbor at sunset](/hobbies/travel-24.jpg "stack 1.333")
 
 ![Inside the Sagrada Familia](/hobbies/travel-20.jpg "1.496") ![Casa Batllo](/hobbies/travel-22.jpg "1.496") ![Rooftop of Casa Mila](/hobbies/travel-31.jpg "1.496")
 
 ![Canals and windmills in the Netherlands](/hobbies/travel-41.jpg "0.445") ![Tulip market](/hobbies/travel-19.jpg "grid 1.036") ![Palm trees at sunset](/hobbies/travel-21.jpg "grid 1.496") ![Plumeria against blue sky](/hobbies/travel-26.jpg "grid 1.496") ![Pagoda on a green hill](/hobbies/travel-15.jpg "grid 1.496") ![Gate tower among trees](/hobbies/travel-23.jpg "grid 1.496") ![Snow on red rocks](/hobbies/travel-16.jpg "grid 1.496")
 
-![Stormy sunset over the ocean](/hobbies/travel-12.jpg "1.496") ![Harbor at sunset](/hobbies/travel-24.jpg "1.333") ![Santorini at night](/hobbies/travel-44.jpg "1.343")
-
-![Aircraft carrier island](/hobbies/travel-28.jpg "1.496") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496")
+![Aircraft carrier island](/hobbies/travel-28.jpg "1.496") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496") ![Santorini at night](/hobbies/travel-44.jpg "1.343")
 
 ![Saguaros at sunset](/hobbies/travel-9.jpg "1.333 | Tucson, Arizona") ![Pink desert sunset](/hobbies/travel-10.jpg "1.333 | Phoenix, Arizona") ![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496")
