@@ -32,17 +32,17 @@ Exploring trails and enjoying the views.
 
 Discovering new places, food, and cultures, especially with my friends and family.
 
-![By the lake in Beihai Park, Beijing](/hobbies/travel-1.jpg "0.684 | Beijing, China") ![Meeting Mickey at Disneyland](/hobbies/travel-2.jpg "1.5 | Los Angeles, California") ![In front of the red rocks of Sedona](/hobbies/travel-11.jpg "1.333 | Sedona, Arizona") ![At the aquarium](/hobbies/travel-14.jpg "0.75")
+![By the lake in Beihai Park, Beijing](/hobbies/travel-1.jpg "0.684 | Beijing, China") ![Meeting Mickey at Disneyland](/hobbies/travel-2.jpg "1.5 | Los Angeles, California") ![In front of the red rocks of Sedona](/hobbies/travel-11.jpg "1.333 | Sedona, Arizona") ![At the aquarium](/hobbies/travel-14.jpg "0.75 | Tsingtao, China")
 
-![Looking out to sea together](/hobbies/travel-30.jpg "1.496") ![On a boat with friends](/hobbies/travel-34.jpg "0.75") ![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0") ![Light trails over the city at night](/hobbies/travel-38.jpg "1.5")
+![Looking out to sea together](/hobbies/travel-30.jpg "1.496 | Athens, Greece") ![On a boat with friends](/hobbies/travel-34.jpg "0.75 | Lake Pleasant, Phoenix") ![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0 | Seattle, Washington") ![Light trails over the city at night](/hobbies/travel-38.jpg "1.5 | Seattle, Washington")
 
 ![Overlooking Lake Como](/hobbies/travel-4.jpg "1.496 | Como, Italy") ![Palms above Lake Como](/hobbies/travel-3.jpg "1.496 | Como, Italy") ![Milan Cathedral](/hobbies/travel-5.jpg "1.496 | Milan, Italy") ![Piazza del Duomo, Milan](/hobbies/travel-6.jpg "1.496 | Milan, Italy")
 
-![Propylaea at Königsplatz](/hobbies/travel-42.jpg "1.502") ![Old Town Hall tower](/hobbies/travel-43.jpg "1.007") ![Palace reflected in the water](/hobbies/travel-45.jpg "1.008") ![Park temple at sunset](/hobbies/travel-40.jpg "0.75")
+![Propylaea at Königsplatz](/hobbies/travel-42.jpg "1.502 | Munich, Germany") ![Old Town Hall tower](/hobbies/travel-43.jpg "1.007 | Munich, Germany") ![Palace reflected in the water](/hobbies/travel-45.jpg "1.008 | Munich, Germany") ![Park temple at sunset](/hobbies/travel-40.jpg "0.75 | Munich, Germany")
 
-![Como waterfront at sunset](/hobbies/travel-7.jpg "0.75 | Lake Como, Italy") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496 | Aegean Sea, Greece") ![Cafe at dusk in Santorini](/hobbies/travel-17.jpg "1.496") ![Blue glassware at night](/hobbies/travel-18.jpg "1.496")
+![Como waterfront at sunset](/hobbies/travel-7.jpg "0.75 | Lake Como, Italy") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496 | Aegean Sea, Greece") ![Cafe at dusk in Santorini](/hobbies/travel-17.jpg "1.496 | Santorini, Greece") ![Blue glassware at night](/hobbies/travel-18.jpg "1.496 | Santorini, Greece")
 
-![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667") ![Lakeside at dusk](/hobbies/travel-35.jpg "grid 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "grid 1.333") ![Golden larches after snowfall](/hobbies/travel-32.jpg "grid 1.523") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "grid 1.496") ![Stormy sunset over the ocean](/hobbies/travel-12.jpg "stack 1.496") ![Harbor at sunset](/hobbies/travel-24.jpg "stack 1.333")
+![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667 | Beijing, China") ![Lakeside at dusk](/hobbies/travel-35.jpg "grid 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "grid 1.333") ![Golden larches after snowfall](/hobbies/travel-32.jpg "grid 1.523") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "grid 1.496") ![Stormy sunset over the ocean](/hobbies/travel-12.jpg "stack 1.496") ![Harbor at sunset](/hobbies/travel-24.jpg "stack 1.333")
 
 ![Inside the Sagrada Familia](/hobbies/travel-20.jpg "1.496") ![Casa Batllo](/hobbies/travel-22.jpg "1.496") ![Rooftop of Casa Mila](/hobbies/travel-31.jpg "1.496")
 
