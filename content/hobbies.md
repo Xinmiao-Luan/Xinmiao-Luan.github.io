@@ -54,4 +54,8 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496")
 
-![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0") ![Golden larches after snowfall](/hobbies/travel-32.jpg "1.523")
+![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0") ![Golden larches after snowfall](/hobbies/travel-32.jpg "1.523") ![Light trails over the city at night](/hobbies/travel-38.jpg "1.5")
+
+![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667") ![Lakeside at dusk](/hobbies/travel-35.jpg "stack 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "stack 1.333")
+
+![On a boat with friends](/hobbies/travel-34.jpg "0.75") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "1.496") ![Park temple at sunset](/hobbies/travel-40.jpg "0.75")
