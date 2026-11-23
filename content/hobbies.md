@@ -38,7 +38,7 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Overlooking Lake Como](/hobbies/travel-4.jpg "1.496 | Como, Italy") ![Palms above Lake Como](/hobbies/travel-3.jpg "1.496 | Como, Italy") ![Milan Cathedral](/hobbies/travel-5.jpg "1.496 | Milan, Italy") ![Piazza del Duomo, Milan](/hobbies/travel-6.jpg "1.496 | Milan, Italy")
 
-![Propylaea at Königsplatz](/hobbies/travel-42.jpg "1.502 | Munich, Germany") ![Old Town Hall tower](/hobbies/travel-43.jpg "1.007 | Munich, Germany") ![Palace reflected in the water](/hobbies/travel-45.jpg "1.008 | Munich, Germany") ![Park temple at sunset](/hobbies/travel-40.jpg "0.75 | Munich, Germany")
+![Propylaea at Königsplatz](/hobbies/travel-42.jpg "1.502 | Munich, Germany") ![Old Town Hall tower](/hobbies/travel-43.jpg "1.007 | Munich, Germany") ![Palace reflected in the water](/hobbies/travel-45.jpg "1.008 | Munich, Germany") ![Neuschwanstein Castle](/hobbies/travel-46.jpg "1.0 | Neuschwanstein, Germany")
 
 ![Como waterfront at sunset](/hobbies/travel-7.jpg "0.75 | Lake Como, Italy") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496 | Aegean Sea, Greece") ![Cafe at dusk in Santorini](/hobbies/travel-17.jpg "1.496 | Santorini, Greece") ![Blue glassware at night](/hobbies/travel-18.jpg "1.496 | Santorini, Greece")
 
