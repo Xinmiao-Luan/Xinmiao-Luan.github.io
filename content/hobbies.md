@@ -59,3 +59,7 @@ Discovering new places, food, and cultures, especially with my friends and famil
 ![In a qipao at a classical courtyard](/hobbies/travel-36.jpg "0.667") ![Lakeside at dusk](/hobbies/travel-35.jpg "stack 1.5") ![Pavilion among green mountains](/hobbies/travel-39.jpg "stack 1.333")
 
 ![On a boat with friends](/hobbies/travel-34.jpg "0.75") ![Hillside village of earthen houses](/hobbies/travel-37.jpg "1.496") ![Park temple at sunset](/hobbies/travel-40.jpg "0.75")
+
+![Propylaea at Königsplatz](/hobbies/travel-42.jpg "1.502") ![Old Town Hall tower](/hobbies/travel-43.jpg "1.127")
+
+![Palace reflected in the water](/hobbies/travel-45.jpg "1.008") ![Santorini at night](/hobbies/travel-44.jpg "1.343")
