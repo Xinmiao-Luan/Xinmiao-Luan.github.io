@@ -26,6 +26,8 @@ Exploring trails and enjoying the views.
 
 ![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75 | Camelback Mountain, Arizona") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75 | Aspen Corner, Flagstaff, Arizona") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563")
 
+![Alpine valley under fresh snow](/hobbies/hiking-9.jpg "1.502") ![Alpine lake among golden larches](/hobbies/hiking-10.jpg "1.509")
+
 ### ✈️ Traveling
 
 Discovering new places, food, and cultures, especially with my friends and family.
@@ -51,3 +53,5 @@ Discovering new places, food, and cultures, especially with my friends and famil
 ![Aircraft carrier island](/hobbies/travel-28.jpg "1.496") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496")
 
 ![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496")
+
+![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0") ![Golden larches after snowfall](/hobbies/travel-32.jpg "1.523")
