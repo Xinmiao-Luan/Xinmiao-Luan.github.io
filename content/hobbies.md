@@ -37,3 +37,17 @@ Discovering new places, food, and cultures, especially with my friends and famil
 ![Milan Cathedral](/hobbies/travel-5.jpg "1.496 | Milan, Italy") ![Piazza del Duomo, Milan](/hobbies/travel-6.jpg "1.496 | Milan, Italy")
 
 ![Saguaros at sunset](/hobbies/travel-9.jpg "1.333 | Tucson, Arizona") ![Pink desert sunset](/hobbies/travel-10.jpg "1.333 | Phoenix, Arizona") ![Ferry wake on the Aegean Sea](/hobbies/travel-8.jpg "1.496 | Aegean Sea, Greece")
+
+![At the aquarium](/hobbies/travel-14.jpg "0.75") ![Looking out to sea together](/hobbies/travel-30.jpg "1.496") ![Cafe at dusk in Santorini](/hobbies/travel-17.jpg "1.496")
+
+![Blue glassware at night](/hobbies/travel-18.jpg "1.496") ![Stormy sunset over the ocean](/hobbies/travel-12.jpg "1.496") ![Harbor at sunset](/hobbies/travel-24.jpg "1.333")
+
+![Inside the Sagrada Familia](/hobbies/travel-20.jpg "1.496") ![Casa Batllo](/hobbies/travel-22.jpg "1.496") ![Rooftop of Casa Mila](/hobbies/travel-31.jpg "1.496")
+
+![Palm trees at sunset](/hobbies/travel-21.jpg "1.496") ![Tulip market](/hobbies/travel-19.jpg "1.036") ![Plumeria against blue sky](/hobbies/travel-26.jpg "1.496")
+
+![Pagoda on a green hill](/hobbies/travel-15.jpg "1.496") ![Gate tower among trees](/hobbies/travel-23.jpg "1.496") ![Snow on red rocks](/hobbies/travel-16.jpg "1.496")
+
+![Aircraft carrier island](/hobbies/travel-28.jpg "1.496") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496")
+
+![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496")
