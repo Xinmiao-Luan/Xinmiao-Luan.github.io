@@ -46,7 +46,7 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Inside the Sagrada Familia](/hobbies/travel-20.jpg "1.496") ![Casa Batllo](/hobbies/travel-22.jpg "1.496") ![Rooftop of Casa Mila](/hobbies/travel-31.jpg "1.496")
 
-![Tulip market](/hobbies/travel-19.jpg "0.333") ![Palm trees at sunset](/hobbies/travel-21.jpg "stack 1.496") ![Plumeria against blue sky](/hobbies/travel-26.jpg "stack 1.496")
+![Canals and windmills in the Netherlands](/hobbies/travel-41.jpg "0.445") ![Tulip market](/hobbies/travel-19.jpg "stack 1.036") ![Palm trees at sunset](/hobbies/travel-21.jpg "stack 1.496") ![Plumeria against blue sky](/hobbies/travel-26.jpg "stack 1.496")
 
 ![Pagoda on a green hill](/hobbies/travel-15.jpg "1.496") ![Gate tower among trees](/hobbies/travel-23.jpg "1.496") ![Snow on red rocks](/hobbies/travel-16.jpg "1.496")
 
