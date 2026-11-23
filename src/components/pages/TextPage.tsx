@@ -87,42 +87,59 @@ const photoClass = 'w-full rounded-xl shadow-md hover:shadow-lg transition-shado
 
 // Lays out a row of photos at one shared height. Each image title is its width/height ratio.
 // Consecutive images titled "stack <ratio>" are stacked into one column, filling the row height.
+// Consecutive images titled "grid <ratio>" form a two-column grid that fills the row height.
 // Add "| <text>" after the ratio to show a location label in the photo's bottom-left corner.
+type PhotoItem = { src?: string; alt?: string; ratio: number; caption?: string };
+type PhotoGroup = { kind: 'single' | 'stack' | 'grid'; items: PhotoItem[] };
+
 function PhotoRow({ images }: { images: ImgNode[] }) {
-    const groups: { stacked: boolean; items: { src?: string; alt?: string; ratio: number; caption?: string }[] }[] = [];
+    const groups: PhotoGroup[] = [];
     for (const img of images) {
         const [title, caption] = String(img.properties.title ?? '').split('|').map((part) => part.trim());
-        const stacked = title.startsWith('stack');
-        const ratio = Number(title.replace('stack', '').trim()) || 1;
+        const kind = title.startsWith('stack') ? 'stack' : title.startsWith('grid') ? 'grid' : 'single';
+        const ratio = Number(title.replace(/^(stack|grid)/, '').trim()) || 1;
         const item = { src: img.properties.src, alt: img.properties.alt, ratio, caption: caption || undefined };
         const last = groups[groups.length - 1];
-        if (stacked && last?.stacked) last.items.push(item);
-        else groups.push({ stacked, items: [item] });
+        if (kind !== 'single' && last?.kind === kind) last.items.push(item);
+        else groups.push({ kind, items: [item] });
     }
     return (
-        <div className="flex flex-col sm:flex-row gap-4 my-6">
-            {groups.map((group, i) =>
-                group.stacked ? (
-                    <span key={i} className="relative block min-w-0" style={{ flex: 1 / group.items.reduce((sum, it) => sum + 1 / it.ratio, 0) }}>
-                        {/* On wide screens the stack fills the height set by its neighbours instead of adding to it. */}
-                        <span className="flex flex-col gap-4 sm:absolute sm:inset-0">
-                        {group.items.map((it) => (
-                            <span key={it.src} className="relative block flex-1 min-h-0" style={{ flexGrow: 1 / it.ratio }}>
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img src={it.src} alt={it.alt || ''} loading="lazy" className={`${photoClass} h-full object-cover`} />
-                                {it.caption && <PhotoCaption text={it.caption} />}
-                            </span>
-                        ))}
+        <div className="flex flex-col sm:flex-row gap-3 my-4">
+            {groups.map((group, i) => {
+                if (group.kind === 'single') {
+                    const it = group.items[0];
+                    return (
+                        <span key={i} className="relative block min-w-0" style={{ flex: it.ratio }}>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={it.src} alt={it.alt || ''} loading="lazy" className={`${photoClass} h-auto`} style={{ aspectRatio: it.ratio }} />
+                            {it.caption && <PhotoCaption text={it.caption} />}
+                        </span>
+                    );
+                }
+                // A stack is a column of single photos; a grid is a column of rows with two photos each.
+                const rows = group.kind === 'stack'
+                    ? group.items.map((it) => [it])
+                    : group.items.reduce<PhotoItem[][]>((acc, it, k) => (k % 2 ? acc[acc.length - 1].push(it) : acc.push([it]), acc), []);
+                const rowRatio = (row: PhotoItem[]) => row.reduce((sum, it) => sum + it.ratio, 0);
+                return (
+                    <span key={i} className="relative block min-w-0" style={{ flex: 1 / rows.reduce((sum, row) => sum + 1 / rowRatio(row), 0) }}>
+                        {/* On wide screens the column fills the height set by its neighbours instead of adding to it. */}
+                        <span className="flex flex-col gap-3 sm:absolute sm:inset-0">
+                            {rows.map((row, r) => (
+                                <span key={r} className="flex gap-3 flex-1 min-h-0" style={{ flexGrow: 1 / rowRatio(row) }}>
+                                    {row.map((it) => (
+                                        <span key={it.src} className="relative block min-w-0" style={{ flex: it.ratio }}>
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                                            <img src={it.src} alt={it.alt || ''} loading="lazy" className={`${photoClass} h-full object-cover`} />
+                                            {it.caption && <PhotoCaption text={it.caption} />}
+                                        </span>
+                                    ))}
+                                </span>
+                            ))}
                         </span>
                     </span>
-                ) : (
-                    <span key={i} className="relative block min-w-0" style={{ flex: group.items[0].ratio }}>
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={group.items[0].src} alt={group.items[0].alt || ''} loading="lazy" className={`${photoClass} h-auto`} />
-                        {group.items[0].caption && <PhotoCaption text={group.items[0].caption} />}
-                    </span>
-                )
-            )}
+                );
+            })}
         </div>
     );
 }
