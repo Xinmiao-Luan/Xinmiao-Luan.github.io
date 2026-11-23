@@ -16,7 +16,7 @@ Keeping my core strong for long days of research.
 
 Chasing fresh powder whenever winter comes around.
 
-![Skiing at the base of the mountain](/hobbies/skiing-1.jpg "1.488 | Denver, Colorado") ![On the slopes at Arizona Snowbowl](/hobbies/skiing-2.jpg "0.661 | Flagstaff, Arizona")
+![Skiing at the base of the mountain](/hobbies/skiing-1.jpg "1.488 | Denver, Colorado") ![On the slopes at Arizona Snowbowl](/hobbies/skiing-2.jpg "0.661 | Flagstaff, Arizona") ![Slopes at Deer Valley Resort](/hobbies/skiing-3.jpg "0.655 | Salt Lake City, Utah")
 
 ### 🥾 Hiking
 
