@@ -24,9 +24,9 @@ Exploring trails and enjoying the views.
 
 ![Forest valley under a storm](/hobbies/hiking-4.jpg "1.529 | Payson, Arizona") ![Saguaro at Lake Pleasant](/hobbies/hiking-1.jpg "0.565") ![North Cascades National Park](/hobbies/hiking-2.jpg "0.569") ![Summit of Camelback Mountain](/hobbies/hiking-7.jpg "0.563 | Camelback Mountain, Arizona")
 
-![Alpine valley under fresh snow](/hobbies/hiking-9.jpg "1.502") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75 | Aspen Corner, Flagstaff, Arizona")
+![Alpine valley under fresh snow](/hobbies/hiking-9.jpg "1.502 | Maple Pass Loop, Seattle") ![Sunset at South Mountain, Phoenix](/hobbies/hiking-5.jpg "0.651") ![Exploring a lava tube cave](/hobbies/hiking-6.jpg "0.75 | Aspen Corner, Flagstaff, Arizona")
 
-![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75 | Camelback Mountain, Arizona") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563") ![Alpine lake among golden larches](/hobbies/hiking-10.jpg "1.509")
+![Scrambling over desert boulders](/hobbies/hiking-3.jpg "0.75 | Camelback Mountain, Arizona") ![Spring blossoms on Camelback Mountain](/hobbies/hiking-8.jpg "0.563") ![Alpine lake among golden larches](/hobbies/hiking-10.jpg "1.509 | North Cascades, Seattle")
 
 ### ✈️ Traveling
 
