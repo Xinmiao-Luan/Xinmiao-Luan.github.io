@@ -68,6 +68,8 @@ const PLACES: Place[] = [
     { name: "Weihai, China", lat: 37.51, lng: 122.12, photos: [] },
     { name: "Yangma Island, Weihai", lat: 37.45, lng: 121.6, photos: [] },
     { name: "Hong Kong, China", lat: 22.32, lng: 114.17, photos: [] },
+    { name: "Jinan, China", lat: 36.65, lng: 117.12, photos: [] },
+    { name: "Tianjin, China", lat: 39.34, lng: 117.36, photos: [] },
 ];
 
 const US_STATES = ['Washington', 'California', 'Utah', 'Colorado', 'Arizona', 'Nevada'];
