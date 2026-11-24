@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { TextPageConfig } from '@/types/page';
+import TravelMap from './TravelMap';
 
 interface TextPageProps {
     config: TextPageConfig;
@@ -36,6 +37,8 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                             if (kids.length > 0 && kids.every((c) => c.type === 'element' && c.tagName === 'img')) {
                                 return <PhotoRow images={kids as unknown as ImgNode[]} />;
                             }
+                            // A paragraph containing only "[travel-map]" becomes the interactive travel map.
+                            if (kids.length === 1 && first0(kids)?.trim() === '[travel-map]') return <TravelMap />;
                             // A paragraph starting with "[placeholder]" becomes an empty dashed photo frame with a note.
                             const first = kids[0];
                             if (kids.length === 1 && first.type === 'text' && first.value.startsWith('[placeholder]')) {
@@ -151,4 +154,8 @@ function PhotoCaption({ text }: { text: string }) {
             {text}
         </span>
     );
+}
+
+function first0(kids: { type: string; value?: string }[]) {
+    return kids[0]?.type === 'text' ? kids[0].value : undefined;
 }

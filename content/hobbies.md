@@ -32,6 +32,8 @@ Exploring trails and enjoying the views.
 
 Discovering new places, food, and cultures, especially with my friends and family.
 
+[travel-map]
+
 ![By the lake in Beihai Park, Beijing](/hobbies/travel-1.jpg "0.684 | Beijing, China") ![Meeting Mickey at Disneyland](/hobbies/travel-2.jpg "1.5 | Los Angeles, California") ![In front of the red rocks of Sedona](/hobbies/travel-11.jpg "1.333 | Sedona, Arizona") ![At the aquarium](/hobbies/travel-14.jpg "0.75 | Tsingtao, China")
 
 ![Looking out to sea together](/hobbies/travel-30.jpg "1.496 | Athens, Greece") ![On a boat with friends](/hobbies/travel-34.jpg "0.75 | Lake Pleasant, Phoenix") ![Night portrait with the city skyline](/hobbies/travel-33.jpg "1.0 | Seattle, Washington") ![Light trails over the city at night](/hobbies/travel-38.jpg "1.5 | Seattle, Washington")
