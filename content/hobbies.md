@@ -30,7 +30,7 @@ Exploring trails and enjoying the views.
 
 ### ✈️ Traveling
 
-Discovering new places, food, and cultures, especially with my friends and family.
+Discovering new places, food, and cultures with my friends and family.
 
 [travel-map]
 
