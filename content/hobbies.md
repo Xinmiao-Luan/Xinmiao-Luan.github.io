@@ -50,4 +50,4 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Aircraft carrier island](/hobbies/travel-28.jpg "1.496 | San Diego, California") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496 | San Diego, California") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496 | Sequoia National Park, California") ![Santorini at night](/hobbies/travel-44.jpg "1.343 | Santorini, Greece")
 
-![Saguaros at sunset](/hobbies/travel-9.jpg "1.333 | Tucson, Arizona") ![Pink desert sunset](/hobbies/travel-10.jpg "1.333 | Phoenix, Arizona") ![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496")
+![Saguaros at sunset](/hobbies/travel-9.jpg "1.333 | Tucson, Arizona") ![Pink desert sunset](/hobbies/travel-10.jpg "1.333 | Phoenix, Arizona") ![Sunlight through tall forest](/hobbies/travel-29.jpg "1.496 | Bogor, Indonesia") ![Moss on a tree trunk](/hobbies/travel-27.jpg "1.496 | Bogor, Indonesia")
