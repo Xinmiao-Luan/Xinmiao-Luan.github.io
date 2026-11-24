@@ -46,7 +46,7 @@ Discovering new places, food, and cultures, especially with my friends and famil
 
 ![Inside the Sagrada Familia](/hobbies/travel-20.jpg "1.496 | Barcelona, Spain") ![Casa Batllo](/hobbies/travel-22.jpg "1.496 | Barcelona, Spain") ![Rooftop of Casa Mila](/hobbies/travel-31.jpg "1.496 | Barcelona, Spain")
 
-![Canals and windmills in the Netherlands](/hobbies/travel-41.jpg "0.445 | Rotterdam, Netherlands") ![Tulip market](/hobbies/travel-19.jpg "grid 1.036") ![Palm trees at sunset](/hobbies/travel-21.jpg "grid 1.496") ![Plumeria against blue sky](/hobbies/travel-26.jpg "grid 1.496") ![Pagoda on a green hill](/hobbies/travel-15.jpg "grid 1.496") ![Gate tower among trees](/hobbies/travel-23.jpg "grid 1.496") ![Snow on red rocks](/hobbies/travel-16.jpg "grid 1.496")
+![Canals and windmills in the Netherlands](/hobbies/travel-41.jpg "0.445 | Rotterdam, Netherlands") ![Tulip market](/hobbies/travel-19.jpg "grid 1.036 | Amsterdam, Netherlands") ![Palm trees at sunset](/hobbies/travel-21.jpg "grid 1.496 | Barcelona, Spain") ![Plumeria against blue sky](/hobbies/travel-26.jpg "grid 1.496 | Bali, Indonesia") ![Pagoda on a green hill](/hobbies/travel-15.jpg "grid 1.496 | Nanjing, China") ![Gate tower among trees](/hobbies/travel-23.jpg "grid 1.496 | Nanjing, China") ![Snow on red rocks](/hobbies/travel-16.jpg "grid 1.496 | Sedona, Arizona")
 
 ![Aircraft carrier island](/hobbies/travel-28.jpg "1.496") ![Plane on the flight deck](/hobbies/travel-13.jpg "1.496") ![Mountains under clouds](/hobbies/travel-25.jpg "1.496") ![Santorini at night](/hobbies/travel-44.jpg "1.343")
 
