@@ -56,12 +56,24 @@ const PLACES: Place[] = [
     { name: "Athens, Greece", lat: 37.98, lng: 23.73, photos: [{"src": "/hobbies/travel-30.jpg", "thumb": "/hobbies/thumbs/travel-30.jpg", "alt": "Looking out to sea together"}] },
     { name: "Santorini, Greece", lat: 36.39, lng: 25.46, photos: [{"src": "/hobbies/travel-17.jpg", "thumb": "/hobbies/thumbs/travel-17.jpg", "alt": "Cafe at dusk in Santorini"}, {"src": "/hobbies/travel-18.jpg", "thumb": "/hobbies/thumbs/travel-18.jpg", "alt": "Blue glassware at night"}, {"src": "/hobbies/travel-44.jpg", "thumb": "/hobbies/thumbs/travel-44.jpg", "alt": "Santorini at night"}] },
     { name: "Aegean Sea, Greece", lat: 37.0, lng: 24.6, photos: [{"src": "/hobbies/travel-8.jpg", "thumb": "/hobbies/thumbs/travel-8.jpg", "alt": "Ferry wake on the Aegean Sea"}] },
+    // Visited without photos
+    { name: "Paris, France", lat: 48.86, lng: 2.35, photos: [] },
+    { name: "Las Vegas, Nevada", lat: 36.17, lng: -115.14, photos: [] },
+    { name: "Chengdu, China", lat: 30.57, lng: 104.07, photos: [] },
+    { name: "Rome, Italy", lat: 41.9, lng: 12.5, photos: [] },
+    { name: "Xi'an, China", lat: 34.34, lng: 108.94, photos: [] },
+    { name: "Guiyang, China", lat: 26.65, lng: 106.63, photos: [] },
+    { name: "Liupanshui, China", lat: 26.59, lng: 104.83, photos: [] },
+    { name: "Changsha, China", lat: 28.23, lng: 112.94, photos: [] },
+    { name: "Weihai, China", lat: 37.51, lng: 122.12, photos: [] },
+    { name: "Yangma Island, Weihai", lat: 37.45, lng: 121.6, photos: [] },
+    { name: "Hong Kong, China", lat: 22.32, lng: 114.17, photos: [] },
 ];
 
-const US_STATES = ['Washington', 'California', 'Utah', 'Colorado', 'Arizona'];
+const US_STATES = ['Washington', 'California', 'Utah', 'Colorado', 'Arizona', 'Nevada'];
 const COUNTRIES = new Set(PLACES.map((p) => {
     const tail = p.name.split(', ').pop() || '';
-    return US_STATES.includes(tail) ? 'United States' : tail === 'Yunnan' ? 'China' : tail;
+    return US_STATES.includes(tail) ? 'United States' : ['Yunnan', 'Sichuan', 'Dalian', 'Weihai'].includes(tail) ? 'China' : tail === 'Munich' ? 'Germany' : tail;
 }));
 
 const LEAFLET = 'https://unpkg.com/leaflet@1.9.4/dist';
