@@ -1,4 +1,4 @@
-I am a Ph.D. candidate in Data Science, Analytics & Engineering at the School of Computing and Augmented Intelligence (SCAI), [Arizona State University](https://www.asu.edu/), advised by Dr. Douglas C. Montgomery. Before ASU, I received my M.Sc. from Tongji University and my B.E. from Dalian University of Technology, with an exchange semester at the Technical University of Munich.
+I am a Ph.D. candidate in Data Science, Analytics & Engineering at the School of Computing and Augmented Intelligence (SCAI), [Arizona State University](https://www.asu.edu/), advised by Dr. Douglas C. Montgomery and Dr. Andi Wang. Before ASU, I received my M.Sc. from Tongji University and my B.E. from Dalian University of Technology, with an exchange semester at the Technical University of Munich.
 
 My research focuses on making AI systems **evaluable and trustworthy**:
 
