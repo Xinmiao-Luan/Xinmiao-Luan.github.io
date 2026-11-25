@@ -32,6 +32,17 @@ export default function About({ content, title }: AboutProps) {
                         li: ({ children }) => <li className="mb-1">{children}</li>,
                         a: ({ children, ...props }) => {
                             // Links written as [paper](url "tooltip") or [code](url "tooltip") render as small icons.
+                            // Site-internal links (e.g. [Contact me](/contact)) render as a button in the same tab.
+                            if (props.href?.startsWith('/')) {
+                                return (
+                                    <a
+                                        href={props.href}
+                                        className="inline-flex items-center gap-1.5 mt-1 px-4 py-2 rounded-lg bg-accent text-white text-sm font-semibold not-italic shadow-sm hover:bg-accent-dark hover:shadow-md transition-all duration-200"
+                                    >
+                                        {children}
+                                    </a>
+                                );
+                            }
                             if (children === 'paper' || children === 'code') {
                                 return (
                                     <a
