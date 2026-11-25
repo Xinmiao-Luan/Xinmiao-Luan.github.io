@@ -231,7 +231,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {pub.journal || pub.conference}{(pub.journal || pub.conference || '').includes(String(pub.year)) ? '' : ` ${pub.year}`}
                                         {pub.awards?.map((award) => (
                                             <span key={award} className="ml-2 inline-flex items-center px-2 py-0.5 rounded-md text-xs font-semibold bg-accent/15 text-accent align-middle">
                                                 🏆 {award}

@@ -8,4 +8,4 @@ My research focuses on making AI systems **evaluable and trustworthy**:
 
 In summer 2026 I was a Research Intern at **DAMO Academy, Alibaba Group**, where I built Rubric Talos, an MCP-based rubric generator adopted by domain experts.
 
-> 💼 **I am on the job market** for research scientist and related positions starting in 2027. Feel free to reach out!
+> 💼 **I am on the job market** for research scientist, machine learning engineer, and related positions starting in 2027. Feel free to reach out!

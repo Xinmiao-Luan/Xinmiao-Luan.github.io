@@ -392,7 +392,7 @@ export default function Profile({ author, social, features, researchInterests }:
                     )}
                     <Link
                         href="/contact"
-                        className="flex items-center space-x-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-accent text-white hover:bg-accent-dark transition-colors duration-200"
+                        className="flex items-center space-x-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-accent/80 text-white hover:bg-accent transition-colors duration-200"
                     >
                         <EnvelopeIcon className="h-4 w-4" />
                         <span>Contact</span>
