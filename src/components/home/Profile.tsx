@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
     EnvelopeIcon,
     AcademicCapIcon,
@@ -389,13 +390,13 @@ export default function Profile({ author, social, features, researchInterests }:
                             <span>{viewCount.toLocaleString()}</span>
                         </div>
                     )}
-                    <a
+                    <Link
                         href="/contact"
                         className="flex items-center space-x-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-accent text-white hover:bg-accent-dark transition-colors duration-200"
                     >
                         <EnvelopeIcon className="h-4 w-4" />
                         <span>Contact</span>
-                    </a>
+                    </Link>
                 </div>
             )}
         </motion.div>
