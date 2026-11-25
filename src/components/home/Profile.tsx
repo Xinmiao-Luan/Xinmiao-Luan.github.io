@@ -351,7 +351,7 @@ export default function Profile({ author, social, features, researchInterests }:
                             onClick={handleLike}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${hasLiked
+                            className={`flex items-center whitespace-nowrap space-x-1.5 px-3 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${hasLiked
                                 ? 'bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400'
                                 : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-500 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400 cursor-pointer'
                                 }`}
@@ -389,6 +389,13 @@ export default function Profile({ author, social, features, researchInterests }:
                             <span>{viewCount.toLocaleString()}</span>
                         </div>
                     )}
+                    <a
+                        href="/contact"
+                        className="flex items-center space-x-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-accent text-white hover:bg-accent-dark transition-colors duration-200"
+                    >
+                        <EnvelopeIcon className="h-4 w-4" />
+                        <span>Contact</span>
+                    </a>
                 </div>
             )}
         </motion.div>
