@@ -76,3 +76,9 @@ title = "Hobbies"
 type = "page"
 target = "hobbies"
 href = "/hobbies"
+
+[[navigation]]
+title = "Contact"
+type = "page"
+target = "contact"
+href = "/contact"
